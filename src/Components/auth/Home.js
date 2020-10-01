@@ -677,7 +677,6 @@ let result = this.state.onlyTwoCheckBox ? "" : "Выберите только д
 
 		return (
 			<div className="App">
-				<button onClick={() => console.log(this.state)}>show state</button>
 				{forms()}
 			</div>
 		);
